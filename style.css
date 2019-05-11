@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	margin: 30px;
 }
@@ -7,6 +11,7 @@ img{
 }
 .logo{
 	text-align: center;
+	margin-top: 0;
 }
 .block{
 	display: block;
@@ -22,11 +27,13 @@ img{
 	clear: both;
 }
 .text{
+	
 	width: 50%;
 	float: left;
 	display: block;
 }
 .form{
+	
 	float: left;
 	width: 25%;
 	text-align: center;
@@ -37,3 +44,26 @@ img{
     display: block;
 	clear: both;
 }
+footer{
+	margin-top: 30px;
+	width: 100%;
+	background-color: #ccc;
+	display: block;
+	float: left;
+}
+.textlink a{
+    color: #fff;
+
+}
+.textlink ul{
+	list-style-type: none;
+	text-align: center;
+    padding: 10px;
+
+}
+.textlink div{
+		width: 25%;
+	display: block;
+	float: left;
+}
+
