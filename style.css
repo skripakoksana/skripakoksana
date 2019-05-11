@@ -15,4 +15,11 @@ img{
 	display: block;
 	width: 25%;
 	float: left;
+	h
+}
+.text{
+	width: 50%;
+	float: left;
+	text-align: center;
+	display: block;
 }
